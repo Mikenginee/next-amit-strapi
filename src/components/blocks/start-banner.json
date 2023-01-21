@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_start_banners",
+  "info": {
+    "displayName": "Start-banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "start-banner.item"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isReversed": {
+      "type": "boolean"
+    }
+  }
+}

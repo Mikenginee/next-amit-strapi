@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_reviews_banners",
+  "info": {
+    "displayName": "Reviews-banner"
+  },
+  "options": {},
+  "attributes": {
+    "reviews": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews-banner.item"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_tabs_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "displayName": "services-content",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.services-content"
+    }
+  }
+}

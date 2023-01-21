@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.info-banner",
+        "blocks.blog-banner",
+        "blocks.featured-banner",
+        "blocks.projects-banner",
+        "blocks.promo-banner",
+        "blocks.reviews-banner",
+        "blocks.services-banner",
+        "blocks.start-banner"
+      ]
+    }
+  }
+}

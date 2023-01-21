@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_services_banners",
+  "info": {
+    "displayName": "Services-banner"
+  },
+  "options": {},
+  "attributes": {
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "tabs.tabs"
+    }
+  }
+}

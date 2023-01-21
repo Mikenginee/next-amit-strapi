@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_promo_banners",
+  "info": {
+    "displayName": "Promo-banner"
+  },
+  "options": {},
+  "attributes": {
+    "advertisementLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    }
+  }
+}

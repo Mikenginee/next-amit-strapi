@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_featured_banners",
+  "info": {
+    "displayName": "Featured-banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}

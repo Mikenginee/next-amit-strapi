@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_blog_banners",
+  "info": {
+    "displayName": "blog-banner"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.item"
+    }
+  }
+}

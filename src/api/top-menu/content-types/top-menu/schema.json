@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_menus",
+  "info": {
+    "singularName": "top-menu",
+    "pluralName": "top-menus",
+    "displayName": "Top Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.items"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.button"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

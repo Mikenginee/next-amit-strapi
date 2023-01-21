@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_description_descriptions",
+  "info": {
+    "displayName": "description"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
