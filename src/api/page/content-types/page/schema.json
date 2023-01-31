@@ -28,8 +28,19 @@
         "blocks.promo-banner",
         "blocks.reviews-banner",
         "blocks.services-banner",
-        "blocks.start-banner"
+        "blocks.start-banner",
+        "common.title-block",
+        "blocks.facts-banner",
+        "blocks.about-banner",
+        "blocks.models-banner",
+        "blocks.image-desc-banner",
+        "blocks.show-off-banner"
       ]
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-block"
     }
   }
 }

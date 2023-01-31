@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_promo_banners",
   "info": {
-    "displayName": "Promo-banner"
+    "displayName": "Promo-banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,16 @@
       "type": "component",
       "repeatable": false,
       "component": "common.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

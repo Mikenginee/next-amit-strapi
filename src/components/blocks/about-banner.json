@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_blocks_about_banners",
+  "info": {
+    "displayName": "About-banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "bright"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "isReversed": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.item"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

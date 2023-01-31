@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_about_item_items",
+  "info": {
+    "displayName": "richTextItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "richtext"
+    }
+  }
+}

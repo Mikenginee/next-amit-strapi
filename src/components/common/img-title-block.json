@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_img_title_blocks",
+  "info": {
+    "displayName": "imgTitleBlock"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

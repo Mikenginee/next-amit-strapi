@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_models_banners",
+  "info": {
+    "displayName": "Models-banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "imgTitleBlock",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.img-title-block"
+    }
+  }
+}

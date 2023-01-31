@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_title_blocks",
+  "info": {
+    "displayName": "TitleBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
