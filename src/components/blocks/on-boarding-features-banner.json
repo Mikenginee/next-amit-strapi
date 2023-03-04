@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_on_boarding_features_banners",
+  "info": {
+    "displayName": "OnBoardingFeaturesBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "headers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.table-headers"
+    },
+    "rows": {
+      "displayName": "row item",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.row-item"
+    }
+  }
+}

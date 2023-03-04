@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_components_table_banners",
+  "info": {
+    "displayName": "ComponentsTableBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "headers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.table-headers"
+    },
+    "rows": {
+      "displayName": "rows-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.rows-item"
+    }
+  }
+}

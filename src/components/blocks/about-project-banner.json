@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_about_project_banners",
+  "info": {
+    "displayName": "AboutProjectBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

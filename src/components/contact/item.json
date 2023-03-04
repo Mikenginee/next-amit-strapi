@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contact_items",
+  "info": {
+    "displayName": "Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.text-item"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_heading_banners",
+  "info": {
+    "displayName": "HeadingBanner"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

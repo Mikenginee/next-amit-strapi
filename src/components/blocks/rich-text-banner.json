@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_rich_text_banners",
+  "info": {
+    "displayName": "RichTextBanner"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

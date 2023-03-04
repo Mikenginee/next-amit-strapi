@@ -34,7 +34,21 @@
         "blocks.about-banner",
         "blocks.models-banner",
         "blocks.image-desc-banner",
-        "blocks.show-off-banner"
+        "blocks.show-off-banner",
+        "blocks.contact-us-info",
+        "blocks.on-boarding-choose-banner",
+        "blocks.on-boarding-create-store-banner",
+        "blocks.on-boarding-features-banner",
+        "blocks.on-boarding-promo-banner",
+        "blocks.on-boarding-qa-banner",
+        "common.promo-banner",
+        "blocks.about-project-banner",
+        "blocks.client-banner",
+        "blocks.cross-platform-banner",
+        "blocks.heading-banner",
+        "blocks.integration-banner",
+        "blocks.rich-text-banner",
+        "blocks.components-table-banner"
       ]
     },
     "pageTitle": {

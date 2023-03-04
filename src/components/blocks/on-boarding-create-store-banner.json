@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_on_boarding_create_store_banners",
+  "info": {
+    "displayName": "OnBoardingCreateStoreBanner"
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    }
+  }
+}

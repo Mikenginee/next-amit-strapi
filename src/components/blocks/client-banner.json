@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_client_banners",
+  "info": {
+    "displayName": "ClientBanner"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "facts.facts-item"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

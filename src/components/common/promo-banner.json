@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_common_promo_banners",
+  "info": {
+    "displayName": "PromoBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
